@@ -1,0 +1,8 @@
+#Authentication
+#Basic Authentication by considering only username and password.
+
+from requests.auth import HTTPBasicAuth
+requests.get(‘http://api.xyz.com/user’,auth=HTTPBasicAuth(‘user’,’pass’,’captche’))
+<Response[200]>
+
+#in the above “xyz” is the name of the app that was created as a sample for the program.
